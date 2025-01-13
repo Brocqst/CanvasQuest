@@ -1112,7 +1112,7 @@ MonoBehaviour:
   playerFallTimer: 0
   gravityGrounded: -1
   maxSlopeAngle: 47.5
-  initialJumpForceMultiplier: 1200
+  initialJumpForceMultiplier: 600
   continueJumpForceMultiplier: 0.1
   jumpTime: 0.175
   jumpTimeCounter: 0
