@@ -15,6 +15,7 @@ public class MiniGame : MonoBehaviour
     [SerializeField] TextMeshProUGUI extraText;
     [SerializeField] TextMeshProUGUI extraTextBg;
     [SerializeField] Animator canvasAnim;
+    [SerializeField] Timer timer;
 
     private void Start()
     {
@@ -85,6 +86,7 @@ public class MiniGame : MonoBehaviour
     void Close()
     {
         gameObject.SetActive(false);
+        AlarmScript.Instance.StopAlarm();
     }
 
     void CalculateTimeReward(float percent)
@@ -95,16 +97,20 @@ public class MiniGame : MonoBehaviour
         {
             float timeRewardTemp = 100 - percent;
             timeReward = timeRewardTemp / 10;
-            extraText.text = $"You lost {timeReward} seconds";
-            extraTextBg.text = $"You lost {timeReward} seconds";
+            float timeRewardString = (float)System.Math.Round(timeReward, 2);
+            extraText.text = $"You lost {timeRewardString} seconds";
+            extraTextBg.text = $"You lost {timeRewardString} seconds";
             timeReward *= -1;
+            timer.AddTime(timeReward);
         }
         else
         {
             float timeRewardTemp = 100 - percent;
             timeReward = timeRewardTemp / 10;
-            extraText.text = $"You earned {timeReward} seconds";
-            extraTextBg.text = $"You earned {timeReward} seconds";
+            float timeRewardString = (float)System.Math.Round(timeReward, 2);
+            extraText.text = $"You earned {timeRewardString} seconds";
+            extraTextBg.text = $"You earned {timeRewardString} seconds";
+            timer.AddTime(timeReward);
         }
 
         canvasAnim.SetTrigger("ExtraTime");

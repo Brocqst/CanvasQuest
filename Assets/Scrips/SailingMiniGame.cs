@@ -9,6 +9,7 @@ public class SailingMiniGame : MonoBehaviour
     [SerializeField] float activationDistance;
     [SerializeField] GameObject textGameObject;
     [SerializeField] TextMeshProUGUI text;
+    [SerializeField] GameObject AlarmSlider;
 
     [SerializeField] GameObject miniGame;
     [SerializeField] Animator canvasAnim;
@@ -20,7 +21,10 @@ public class SailingMiniGame : MonoBehaviour
     private void Start()
     {
         miniGame.SetActive(false);
-        IsReady();
+        textGameObject.SetActive(false);
+        randomTimer = Random.Range(randomCooldownMin, randomCooldownMax);
+        //IsReady();
+        //AlarmScript.Instance.gameObject.SetActive(true);
     }
 
     private void Update()
@@ -32,6 +36,7 @@ public class SailingMiniGame : MonoBehaviour
             if (randomTimer <= 0)
             {
                 IsReady();
+                AlarmSlider.SetActive(true);
             }
         }
         else
