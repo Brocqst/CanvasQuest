@@ -12,6 +12,7 @@ public class Timer : MonoBehaviour
     [SerializeField] Volume nauseaEffect;
     float currentTime;
     Slider slider;
+    bool timesUp = false;
 
     private void Start()
     {
@@ -23,6 +24,7 @@ public class Timer : MonoBehaviour
 
     private void Update()
     {
+        if (timesUp) return;
         if (currentTime > 0)
         {
             currentTime -= Time.deltaTime;
@@ -38,6 +40,9 @@ public class Timer : MonoBehaviour
             slider.value = currentTime;
             text.text = "";
             nauseaEffect.weight = 1;
+            timesUp = true;
+            StateHandler.instance.Die();
+            InventoryManager.instance.won = true;
         }
     }
 }

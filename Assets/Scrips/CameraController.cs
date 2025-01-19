@@ -9,7 +9,6 @@ public class CameraController : MonoBehaviour
     [SerializeField] PlayerLandInput input;
 
     [HideInInspector] public CinemachineVirtualCamera activeCam;
-    int activeCamPriorityModifer = 3010;
 
     public Camera mainCam;
     public CinemachineVirtualCamera cin1stPerson;

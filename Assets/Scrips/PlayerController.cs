@@ -383,4 +383,12 @@ public class PlayerController : MonoBehaviour
 
         vaultCounter -= Time.deltaTime;
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Water"))
+        {
+            StateHandler.instance.Drown();
+        }
+    }
 }

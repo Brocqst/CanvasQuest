@@ -11,7 +11,10 @@ public class InventoryManager : MonoBehaviour
     public List<GameObject> inventoryItems = new List<GameObject>();
     public List<GameObject> requiredItems = new List<GameObject>();
 
+    [SerializeField] private Timer timer;
+
     public static int numberOfFoundItems = 0;
+    public bool won = false;
 
     private void Awake()
     {
@@ -37,19 +40,22 @@ public class InventoryManager : MonoBehaviour
 
     private void Update()
     {
+        if (won) return;
         int numberOfFoundItemsTemp = 0;
         foreach (GameObject item in requiredItems)
         {
             if (inventoryItems.Contains(item))
             {
                 numberOfFoundItemsTemp++;
-                Debug.Log("Got the GameObject");
-            }
-            else
-            {
-                Debug.Log("Missing GameObject");
             }
         }
         numberOfFoundItems = numberOfFoundItemsTemp;
+
+        if (numberOfFoundItems == 3)
+        {
+            won = true;
+            StateHandler.instance.Win();
+            timer.enabled = false;
+        }
     }
 }
