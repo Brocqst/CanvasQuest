@@ -419,7 +419,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3763646beb7395c4dbaf9f3e893a11ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 75e2a27c90e48a544be5d48941aa2680, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -963,7 +963,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1208,7 +1208,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 20781455ab8ed1940a91afadb9913078, type: 3}
+  m_Sprite: {fileID: 21300000, guid: db66e12fb9ffb9c4f9af01b23c345f67, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1337,7 +1337,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 203.4808, y: 227.1563}
+  m_SizeDelta: {x: 197.6099, y: 231.071}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &558198629
 MonoBehaviour:
@@ -1359,7 +1359,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b770570b3a96eec4bb157942f35b4bfc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d182cead21b80384c9a0546fb76971fd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1434,7 +1434,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Johannes Vermeer
+  m_text: Frans Hals
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1703,11 +1703,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "is een bekende kunstschilder uit de Gouden Eeuw. Hij werd pas een paar
-    eeuwen na zijn leven heel bekend, met onder meer werken als het Meisje met de
-    Parel, Het Melkmeisje en Stadgezicht op Delft. Hij wordt ook wel de \u2018Sfinx
-    van Delft\u2019 genoemd, omdat er zo weinig over hem bekend is. Johannes is geboren
-    op 31 oktober 1632 in Delft en gestorven op 15 december 1675 in Delft."
+  m_text: behoort met Rembrandt van Rijn en Johannes Vermeer tot de drie belangrijkste
+    schilders uit het tijdperk van de Nederlandse Gouden Eeuw. Hij wordt vooral gewaardeerd
+    om zijn losse toets en levendige portretten van tijdgenoten, genrevoorstellingen
+    en kleurrijke schuttersstukken.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1841,7 +1840,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5326f722e12dc8a469423637356e82ff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d9957794e95683c4b877b6029999e306, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2984,11 +2983,11 @@ MonoBehaviour:
   dialogText: {fileID: 1630000795}
   dialogs:
   - lines:
-    - Hey, wat kan ik voor je doen?
-    - Een schilderij maken, dat is mijn favoriete ding om te doen!
-    - Ik wil het wel doen, alleen als je wat geld en de spullen voor mij hebt natuurlijk.
+    - Wat kan ik voor je doen?
+    - Ik wil wel een Schilderij maken. Maar niet gratis
+    - Voor wat geld en de spullen voor mij hebt natuurlijk.
     - Ik heb een Palet, Kwast en een Kleuren Mixer.
-    - Wil je dat ik dat voor je doe?
+    - Is dat een Deal?
   letterDelay: 0.05
   AcceptButtons: {fileID: 1441899974}
 --- !u!1 &1834106303
@@ -3181,7 +3180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Johannes Vermeer
+  m_text: Frans Hals
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 24ebe279d07b7774389b0e7ccc9acdde, type: 2}
   m_sharedMaterial: {fileID: 1767017545914664117, guid: 24ebe279d07b7774389b0e7ccc9acdde,
@@ -3614,7 +3613,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 235, y: -0.000015258789}
-  m_SizeDelta: {x: 255.3965, y: 285.1125}
+  m_SizeDelta: {x: 249.0613, y: 291.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2049078640
 MonoBehaviour:
@@ -3636,7 +3635,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b770570b3a96eec4bb157942f35b4bfc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d182cead21b80384c9a0546fb76971fd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3711,7 +3710,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3763646beb7395c4dbaf9f3e893a11ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 75e2a27c90e48a544be5d48941aa2680, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

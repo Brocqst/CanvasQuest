@@ -44,19 +44,19 @@ public class LoadSceneTransition : MonoBehaviour
 
         if (sceneIndex == 1)
         {
-            SceneManager.LoadScene("Scene1");
+            SceneManager.LoadScene("Dialogue1");
         }
         if (sceneIndex == 2)
         {
-            SceneManager.LoadScene("Scene2");
+            SceneManager.LoadScene("Dialogue2");
         }
         if (sceneIndex == 3)
         {
-            SceneManager.LoadScene("Scene3");
+            SceneManager.LoadScene("Dialogue3");
         }
         if (sceneIndex == 4)
         {
-            SceneManager.LoadScene("Scene4");
+            SceneManager.LoadScene("Dialogue4");
         }
 
     }

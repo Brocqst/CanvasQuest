@@ -419,7 +419,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3763646beb7395c4dbaf9f3e893a11ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 76979f00c90ae334fb5e151dcffd3936, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -963,7 +963,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1208,7 +1208,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 20781455ab8ed1940a91afadb9913078, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 74ce8fea1b5ca1846a4474dac3591184, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1337,7 +1337,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 203.4808, y: 227.1563}
+  m_SizeDelta: {x: 424.8372, y: 343.6743}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &558198629
 MonoBehaviour:
@@ -1359,7 +1359,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b770570b3a96eec4bb157942f35b4bfc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1cd29867d4889fc42afe55258348a90f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1434,7 +1434,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Johannes Vermeer
+  m_text: De Nachtwacht
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1703,11 +1703,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "is een bekende kunstschilder uit de Gouden Eeuw. Hij werd pas een paar
-    eeuwen na zijn leven heel bekend, met onder meer werken als het Meisje met de
-    Parel, Het Melkmeisje en Stadgezicht op Delft. Hij wordt ook wel de \u2018Sfinx
-    van Delft\u2019 genoemd, omdat er zo weinig over hem bekend is. Johannes is geboren
-    op 31 oktober 1632 in Delft en gestorven op 15 december 1675 in Delft."
+  m_text: is het enige schuttersstuk van Rembrandt van Rijn en werd geschilderd tussen
+    1639 en 1642. Op ongeveer 35-jarige leeftijd voltooide Rembrandt van Rijn dit
+    indrukwekkende werk, dat nu beschouwd wordt als een van de beroemdste schilderijen
+    ter wereld. De Nachtwacht staat op het hoofdaltaar in het Rijksmuseum in Amsterdam.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1841,7 +1840,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5326f722e12dc8a469423637356e82ff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 473c7e6b71035624eb5af861f413b23f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3181,7 +3180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Johannes Vermeer
+  m_text: Rembrant van Rijn
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 24ebe279d07b7774389b0e7ccc9acdde, type: 2}
   m_sharedMaterial: {fileID: 1767017545914664117, guid: 24ebe279d07b7774389b0e7ccc9acdde,
@@ -3614,7 +3613,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 235, y: -0.000015258789}
-  m_SizeDelta: {x: 255.3965, y: 285.1125}
+  m_SizeDelta: {x: 298.6001, y: 241.5541}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2049078640
 MonoBehaviour:
@@ -3636,7 +3635,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b770570b3a96eec4bb157942f35b4bfc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1cd29867d4889fc42afe55258348a90f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3711,7 +3710,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3763646beb7395c4dbaf9f3e893a11ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 76979f00c90ae334fb5e151dcffd3936, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
