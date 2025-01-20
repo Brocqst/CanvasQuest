@@ -8,6 +8,8 @@ public class StateHandler : MonoBehaviour
     public static StateHandler instance;
     public GameObject fadeAnim;
     [SerializeField] Animator animator;
+    [SerializeField] GameObject dieSound;
+    [SerializeField] GameObject gameWonSound;
 
     private void Awake()
     {
@@ -24,11 +26,13 @@ public class StateHandler : MonoBehaviour
     public void Die()
     {
         animator.SetTrigger("Die");
+        Instantiate(dieSound);
     }
 
     public void Win()
     {
         animator.SetTrigger("Win");
+        Instantiate(gameWonSound);
     }
 
     public void Drown()

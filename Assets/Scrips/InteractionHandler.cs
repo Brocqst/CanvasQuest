@@ -5,6 +5,7 @@ using UnityEngine;
 public class InteractionHandler : MonoBehaviour
 {
     [SerializeField] GameObject Vfx;
+    [SerializeField] GameObject pickupSound;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -13,6 +14,7 @@ public class InteractionHandler : MonoBehaviour
             InventoryManager.AddItem(collision.gameObject);
             collision.gameObject.GetComponent<Item>().targetIcon.SwitchToActive();
             Instantiate(Vfx, collision.gameObject.transform.position, Quaternion.identity);
+            Instantiate(pickupSound, collision.gameObject.transform.position, Quaternion.identity);
             collision.gameObject.SetActive(false);
         }
     }

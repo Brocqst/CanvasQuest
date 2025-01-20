@@ -3202,6 +3202,7 @@ MonoBehaviour:
     - Wil je dat ik dat voor je doe?
   letterDelay: 0.05
   AcceptButtons: {fileID: 1441899974}
+  bliep: {fileID: 7928836195764956307, guid: 4c546b5a9ce343442a86f3e3d84c3a1a, type: 3}
 --- !u!1 &1834106303
 GameObject:
   m_ObjectHideFlags: 0

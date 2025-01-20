@@ -79,6 +79,9 @@ public class PlayerController : MonoBehaviour
     [Header("VFX")]
     [SerializeField] GameObject vaultVfx;
 
+    [Header("Sounds")]
+    [SerializeField] AudioSource footsteps;
+
     private Vector3 initialPosition;
     private float timer;
 

@@ -3,7 +3,10 @@ guid: faf10a5fdd1797546904c04c9652ec16
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - dialogText: {instanceID: 0}
+  - AcceptButtons: {instanceID: 0}
+  - bliep: {fileID: 7928836195764956307, guid: 4c546b5a9ce343442a86f3e3d84c3a1a, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

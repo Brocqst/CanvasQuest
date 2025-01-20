@@ -16,6 +16,7 @@ public class MiniGame : MonoBehaviour
     [SerializeField] TextMeshProUGUI extraTextBg;
     [SerializeField] Animator canvasAnim;
     [SerializeField] Timer timer;
+    [SerializeField] GameObject winSound;
 
     private void Start()
     {
@@ -114,5 +115,6 @@ public class MiniGame : MonoBehaviour
         }
 
         canvasAnim.SetTrigger("ExtraTime");
+        Instantiate(winSound);
     }
 }

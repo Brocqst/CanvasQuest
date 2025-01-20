@@ -21,6 +21,7 @@ public class DialogSystem : MonoBehaviour
     private Coroutine typingCoroutine;
 
     [SerializeField] GameObject AcceptButtons;
+    [SerializeField] GameObject bliep;
 
     void Start()
     {
@@ -85,6 +86,7 @@ public class DialogSystem : MonoBehaviour
         foreach (char letter in line)
         {
             dialogText.text += letter;
+            Instantiate(bliep);
             yield return new WaitForSeconds(letterDelay);
         }
 

@@ -16,7 +16,4 @@ public class DialogPages : MonoBehaviour
             pages[currentPage].SetActive(true);
         }
     }
-
-
-
 }
