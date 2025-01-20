@@ -40,7 +40,7 @@ public class StateHandler : MonoBehaviour
 
     public void NextSceneWin()
     {
-        fadeAnim.GetComponent<SceneManagement>().sceneName = "MainMenu";
+        fadeAnim.GetComponent<SceneManagement>().sceneName = "TransisionScene";
         fadeAnim.GetComponent<Animator>().SetTrigger("Out");
     }
 

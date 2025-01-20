@@ -3,7 +3,12 @@ guid: cb66f5faac05b6248a9e26e1dc67754c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SharkEye
+    second: {fileID: 2100000, guid: 4e8a036644ff66143948836610549151, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
