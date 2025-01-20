@@ -1572,8 +1572,8 @@ MonoBehaviour:
   AlarmSlider: {fileID: 905036791}
   miniGame: {fileID: 1754098004}
   canvasAnim: {fileID: 244652249}
-  randomCooldownMin: 5
-  randomCooldownMax: 20
+  randomCooldownMin: 17
+  randomCooldownMax: 30
 --- !u!4 &408405411
 Transform:
   m_ObjectHideFlags: 0
